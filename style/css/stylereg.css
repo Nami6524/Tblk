@@ -37,6 +37,7 @@ body{
     font-size: 2em;
     color: #ffffff;
     text-align: center;
+    font-family: 'Knewave', cursive;
 }
 
 .input-box{
@@ -119,6 +120,7 @@ body{
     font-size: 1em;
     color: #ffffff;
     font-weight: 500;
+    font-family: 'Knewave', cursive;
 }
 
 .login-register {
