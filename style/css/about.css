@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../images/oxota.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    margin-top: 250px;
+    margin-left: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255 .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+.wrapper summary {
+    margin: 15%;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.wrapper details {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #ffffff;
+    margin: 30px 0;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .6s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+
+}
+
+.right-form div input {
+    width: 40px;
+    height: 40px;
+}
+
+.cheackboxs {
+    margin-top: 9%;
+}
+
+.cheackboxs label input {
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.cheackboxs label {
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'Knewave', cursive;
+}
+
+.right-form button {
+    width: 90%;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 9%;
+    font-size: 25px;
+    font-family: 'Knewave', cursive;
+    border-radius: 9px;
+    border-bottom-right-radius: 30px;
+    box-shadow: inset 2px 2px 20px 10px rgba(83, 83, 83, 0.789);
+    cursor: pointer;
+    box-shadow: inset 2px 2px 20px 20px rgba(124, 122, 122, 0.789);
+}
